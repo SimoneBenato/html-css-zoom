@@ -48,7 +48,7 @@ footer {
     width: 200px;
     height: 100px;
     background-color: blanchedalmond;
-    margin: 5px;
+    margin: 2px;
 }
 
 ul li {
@@ -71,4 +71,12 @@ ul li {
 
 .active {
     border: 5px solid lightgreen;
+}
+
+.close {
+    align-items: center;
+    height: 100%;
+    color: red;
+    background-color: rgb(74, 75, 76);
+    padding: 10px;
 }
