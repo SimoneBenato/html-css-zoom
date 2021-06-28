@@ -6,23 +6,40 @@
 
 /* common */
 
-body {
-    background-color: black;
-    width: 100vw;
-    height: 100vh;
-}
-
 .flex {
     display: flex;
+}
+
+
+
+/* tag */
+
+body {
+    background-color: black;
 }
 
 main {
     flex-wrap: wrap;
     width: 80%;
+    height: 100vh;
     margin: 0 auto;
     justify-content: center;
-    align-items: center;
+    align-content: center;
 }
+
+footer {
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(34, 35, 28);
+    color: white;
+}
+
+/* classes */
 
 .user {
     justify-content: space-around;
@@ -32,3 +49,9 @@ main {
     background-color: blanchedalmond;
     margin: 5px;
 }
+
+ul li {
+    display: inline-block;
+    list-style: none;
+}
+
